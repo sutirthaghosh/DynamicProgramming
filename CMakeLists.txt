@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 2.6)
+project(dynamicprogramming)
+
+add_executable(dynamicprogramming main.cpp)
+add_executable(longestsubstring longestsubstring.cpp)
+add_executable(knapsack knapsack01.cpp)
+add_executable(LongestIncreasingSubsequence LongestIncreasingSubsequence.cpp)
+add_executable(LongestCommonIncreasingSubsequence LongestCommonIncreasingSubsequence.cpp)
+
+install(TARGETS dynamicprogramming RUNTIME DESTINATION bin)
